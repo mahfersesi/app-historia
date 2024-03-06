@@ -5,30 +5,50 @@
              Shell.NavBarIsVisible="false">
         <Grid>
 
+        <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="70"/>
+        <RowDefinition Height="70"/>
+        </Grid.RowDefinitions>
+
         <Image
                 Source="capaapp.jpg"
-                Opacity=".9"
-                Aspect="AspectFill"/> 
+                Aspect="AspectFill"
+                Grid.RowSpan="3"/> 
 
         <Label Text="Você esta pronto para viver uma historia de romance?"
            TextColor="white"
            Margin="20"
            FontSize="20"
-           FontFamily="Papyrus"
+           FontFamily="CachetStdBold"
            HorizontalOptions="Center"
            HorizontalTextAlignment="Center"
            VerticalOptions="Center"/>
 
-           <Button Text="sim, obvio"
+           <Button Text="Simmm"
+              Clicked="ClickAndGoToTheNext"
+              Grid.Row="1"
               HeightRequest="50"
               CornerRadius="25"
               BackgroundColor="#D8BFD8"
               TextColor="White"
-              Margin="0,0,0,10"
               FontSize="18"
               FontFamily="CachetStdBold"
-              HorizontalOptions=""
+              HorizontalOptions="FillAndExpand"
               VerticalOptions="Center"/>
-            
+
+
+        <Button Text="Sobre"
+              Clicked="AboutNext"
+              Grid.Row="2"
+              HeightRequest="50"
+              CornerRadius="25"
+              BackgroundColor="#D8BFD8"
+              TextColor="White"
+              FontSize="18"
+              FontFamily="CachetStdBold"
+              HorizontalOptions="FillAndExpand"
+              VerticalOptions="Center"/>
+        
         </Grid>
 </ContentPage>

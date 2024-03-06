@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="atravesdaminhajanela.OnePage"
+             Shell.NavBarIsVisible="false">
+
+        <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="70"/>
+        </Grid.RowDefinitions>
+
+    <Label Text="Sobre o Jogo"
+           TextColor="Black"
+           Grid.Row="0"
+           Margin="20"
+           FontSize="40"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Label Text="È uma histora montada diante de suas escolhas,ao percorer esse caminho haverá varias possibilidades de como a sua vida amorosa aconecer no jogo."
+           TextColor="Black"
+           Grid.Row="1"
+           Margin="20"
+           FontSize="20"
+           FontFamily="CachetStdBold"
+           HorizontalOptions="Center"
+           HorizontalTextAlignment="Center"
+           VerticalOptions="Center"/>
+
+    <Label Text="Boa Sorte"
+           TextColor="Black"
+           Grid.Row="2"
+           Margin="20"
+           FontSize="20"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+</ContentPage>
