@@ -25,7 +25,7 @@
            HorizontalTextAlignment="Center"
            VerticalOptions="Center"/>
 
-           <Button Text="Simmm"
+           <Button Text="Sobre"
               Clicked="ClickAndGoToTheNext"
               Grid.Row="1"
               HeightRequest="50"
@@ -38,7 +38,7 @@
               VerticalOptions="Center"/>
 
 
-        <Button Text="Sobre"
+        <Button Text="Começar"
               Clicked="AboutNext"
               Grid.Row="2"
               HeightRequest="50"

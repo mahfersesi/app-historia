@@ -1,8 +1,61 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="atravesdaminhajanela.TwoPage"
+             x:Class="atravesdaminhajanela.OnePage"
              Shell.NavBarIsVisible="false">
 
+        <Grid>
 
+        <Grid.RowDefinitions>
+        <RowDefinition Height="100"/>
+        <RowDefinition Height="150"/>
+        <RowDefinition Height="300"/>
+        <RowDefinition Height="200"/>
+        </Grid.RowDefinitions>
+
+       <Image
+                Source="sobreapp.jpg"
+                Aspect="AspectFill"
+                Grid.RowSpan="3"/> 
+
+        
+
+    <Label Text="Sobre o Jogo"
+           TextColor="Black"
+           Grid.Row="0"
+           Margin="20"
+           FontSize="40"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Label Text="È uma histora montada diante de suas escolhas,ao percorer esse caminho haverá varias possibilidades de como a sua vida amorosa aconecer no jogo."
+           TextColor="Black"
+           Grid.Row="1"
+           Margin="20"
+           FontSize="20"
+           FontFamily="CachetStdBold"
+           HorizontalOptions="Center"
+           VerticalOptions="Center"/>
+
+    <Label Text="Boa Sorte"
+           TextColor="Black"
+           Grid.Row="2"
+           Margin="20"
+           FontSize="30"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Button Text="Voltar"
+              Clicked="ReturnHome"
+              Grid.Row="3"
+              HeightRequest="50"
+              CornerRadius="25"
+              BackgroundColor="#ff007f"
+              TextColor="White"
+              FontSize="18"
+              FontFamily="CachetStdBold"
+              HorizontalOptions="FillAndExpand"
+              VerticalOptions="Center"/>
+
+    </Grid>
 </ContentPage>

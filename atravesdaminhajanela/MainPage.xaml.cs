@@ -1,4 +1,6 @@
-﻿namespace atravesdaminhajanela;
+﻿using Microsoft.Maui.Controls;
+
+namespace atravesdaminhajanela;
 
 public partial class MainPage : ContentPage
 {
@@ -11,13 +13,12 @@ public partial class MainPage : ContentPage
 
 	 private void ClickAndGoToTheNext(object sender, EventArgs args)
   {
-    if (Application.Current != null)
       Application.Current.MainPage = new OnePage();
   }
 
-  private void AboutNext(object sender, EventArgs args)
+  private void 
+  AboutNext(object sender, EventArgs args)
   {
-    if (Application.Current != null)
       Application.Current.MainPage = new TwoPage();
   }
 }
