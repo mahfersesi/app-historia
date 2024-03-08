@@ -10,5 +10,9 @@ public partial class TwoPage : ContentPage
 		InitializeComponent();
 	}
 
+	private void NextOne(object sender, EventArgs args)
+  {
+    IsVisible = true;
+  }
 
 }

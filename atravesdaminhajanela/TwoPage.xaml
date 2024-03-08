@@ -8,35 +8,38 @@
 
         <Grid.RowDefinitions>
         <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
+        <RowDefinition Height="50"/>
         <RowDefinition Height="70"/>
         </Grid.RowDefinitions>
 
-       </Grid>
-    <Label Text="Sobre o Jogo"
+    <Image
+                Source="fundohistoria.jpg"
+                Aspect="AspectFill"
+                Grid.RowSpan="4"/> 
+
+       
+    <Label Text="Raquel é uma garota de Barcelona que mora do lado da mansão dos Hidalgos eles são a familia que tem o predio mais alto de barcelona é uma empressa chamada Alfa 3 é composta pelos 3 irmãos Hidalgos o mais velho chamado Artemis o mais novo Apolo e o que a Raquel é extremamente apaixonada o Aries.  "
            TextColor="Black"
            Grid.Row="0"
            Margin="20"
-           FontSize="40"
+           FontSize="25"
            FontFamily="CachetStdBold"
            VerticalOptions="Center"/>
 
-    <Label Text="È uma histora montada diante de suas escolhas,ao percorer esse caminho haverá varias possibilidades de como a sua vida amorosa aconecer no jogo."
-           TextColor="Black"
-           Grid.Row="1"
-           Margin="20"
-           FontSize="20"
-           FontFamily="CachetStdBold"
-           HorizontalOptions="Center"
-           HorizontalTextAlignment="Center"
-           VerticalOptions="Center"/>
+   <Button Text="Proximo"
+              Clicked="NextOne"
+              Grid.Row="1"
+              HeightRequest="50"
+              CornerRadius="25"
+              BackgroundColor="#1414b8"
+              TextColor="White"
+              FontSize="18"
+              FontFamily="CachetStdBold"
+              HorizontalOptions="FillAndExpand"
+              VerticalOptions="Center"/>
 
-    <Label Text="Boa Sorte"
-           TextColor="Black"
-           Grid.Row="2"
-           Margin="20"
-           FontSize="20"
-           FontFamily="CachetStdBold"
-           VerticalOptions="Center"/>
+</Grid>
+
+    
 
 </ContentPage>

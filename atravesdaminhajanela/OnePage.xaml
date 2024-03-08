@@ -8,9 +8,9 @@
 
         <Grid.RowDefinitions>
         <RowDefinition Height="100"/>
-        <RowDefinition Height="150"/>
-        <RowDefinition Height="300"/>
-        <RowDefinition Height="200"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="80"/>
+        <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
 
        <Image
@@ -24,11 +24,11 @@
            TextColor="Black"
            Grid.Row="0"
            Margin="20"
-           FontSize="40"
+           FontSize="47"
            FontFamily="CachetStdBold"
            VerticalOptions="Center"/>
 
-    <Label Text="È uma histora montada diante de suas escolhas,ao percorer esse caminho haverá varias possibilidades de como a sua vida amorosa aconecer no jogo."
+    <Label Text="È uma histora montada diante de suas escolhas,ao percorer esse caminho haverá varias possibilidades de como a sua vida amorosa acontecer no jogo, como sera que vai ser sua jornada?."
            TextColor="Black"
            Grid.Row="1"
            Margin="20"
