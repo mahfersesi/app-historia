@@ -45,7 +45,8 @@
            FontFamily="CachetStdBold"
            VerticalOptions="Center"/>
 
-    <Button Text="Voltar"
+    <Button x:Name="Volta" 
+              Text="Voltar"
               Clicked="ReturnHome"
               Grid.Row="3"
               HeightRequest="50"

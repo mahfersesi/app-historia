@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="atravesdaminhajanela.TwoPage"
+             x:Class="atravesdaminhajanela.Historia01Page"
              Shell.NavBarIsVisible="false">
-       
-       <Grid>
+
+<Grid>
 
         <Grid.RowDefinitions>
         <RowDefinition Height="*"/>
-        <RowDefinition Height="50"/>
-        <RowDefinition Height="70"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
     <Image
@@ -18,7 +18,7 @@
                 Grid.RowSpan="4"/> 
 
        
-    <Label Text="Raquel é uma garota de Barcelona que mora do lado da mansão dos Hidalgos eles são a familia que tem o predio mais alto de barcelona é uma empressa chamada Alfa 3 é composta pelos 3 irmãos Hidalgos o mais velho chamado Artemis o mais novo Apolo e o que a Raquel é extremamente apaixonada o Aries.  "
+    <Label Text="No computador dela existe varias fotos do Aries, e a senha do seu Wifi é 'aries deus grego' em codigos, certo da ela estava dormindo e o Aries foi perto da janela do quarto dela e colocou uma musica bem alta assim acordando-a. O que ela deve fazer nessa situação?"
            TextColor="Black"
            Grid.Row="0"
            Margin="20"
@@ -26,9 +26,9 @@
            FontFamily="CachetStdBold"
            VerticalOptions="Center"/>
 
-<Button x:Name="Next"
-              Text="Proximo"
-              Clicked="NextOne"
+    <Button x:Name="Brava"
+              Text="Ser arrogante com ele"
+              Clicked="estressada"
               Grid.Row="1"
               HeightRequest="50"
               CornerRadius="25"
@@ -39,8 +39,17 @@
               HorizontalOptions="FillAndExpand"
               VerticalOptions="Center"/>
 
+    <Button x:Name="Calma"
+              Text="Falar com calma"
+              Clicked="Calm"
+              Grid.Row="2"
+              HeightRequest="50"
+              CornerRadius="25"
+              BackgroundColor="#1414b8"
+              TextColor="White"
+              FontSize="18"
+              FontFamily="CachetStdBold"
+              HorizontalOptions="FillAndExpand"
+              VerticalOptions="Center"/>
 </Grid>
-
-    
-
 </ContentPage>

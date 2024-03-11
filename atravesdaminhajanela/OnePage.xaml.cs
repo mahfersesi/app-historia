@@ -14,7 +14,7 @@ public partial class OnePage : ContentPage
 
 private void ReturnHome(object sender, EventArgs args)
   {
-    IsVisible = true;
+    Application.Current.MainPage = new MainPage();
   }
 
 

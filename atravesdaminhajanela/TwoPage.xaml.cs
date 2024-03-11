@@ -12,7 +12,7 @@ public partial class TwoPage : ContentPage
 
 	private void NextOne(object sender, EventArgs args)
   {
-    IsVisible = true;
+    Application.Current.MainPage = new Historia01Page ();
   }
 
 }
