@@ -7,9 +7,9 @@
 <Grid>
 
         <Grid.RowDefinitions>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
+        <RowDefinition Height="90"/>
+        <RowDefinition Height="60"/>
+        <RowDefinition Height="40"/>
         </Grid.RowDefinitions>
 
     <Image
@@ -18,13 +18,30 @@
                 Grid.RowSpan="4"/> 
 
        
-    <Label Text="No computador dela existe varias fotos do Aries, e a senha do seu Wifi é 'aries deus grego' em codigos, certo da ela estava dormindo e o Aries foi perto da janela do quarto dela e colocou uma musica bem alta assim acordando-a. O que ela deve fazer nessa situação?"
+    <Label Text="'Você poderia abaixar a música e parar de usar meu wifi?, estou tentando dormir'"
            TextColor="Black"
            Grid.Row="0"
            Margin="20"
            FontSize="25"
            FontFamily="CachetStdBold"
            VerticalOptions="Center"/>
+
+    <Label Text="Aries:'O meu wifi parou de funcionar e estou usando o seu algum problema?"
+           TextColor="Black"
+           Grid.Row="1"
+           Margin="20"
+           FontSize="25"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Label Text="Raquel: 'Idiota'"
+           TextColor="Black"
+           Grid.Row="2"
+           Margin="20"
+           FontSize="25"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
 
 </Grid>
 </ContentPage> 

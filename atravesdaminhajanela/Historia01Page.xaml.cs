@@ -8,8 +8,13 @@ public partial class Historia01Page : ContentPage
 	{
 		InitializeComponent();
 	}
-    private void ClickAndGoToTheNext(object sender, EventArgs args)
+    private void Calm(object sender, EventArgs args)
   {
-      Application.Current.MainPage = new OnePage();
+      Application.Current.MainPage = new Historia02Page();
+  }
+
+  private void estressada(object sender, EventArgs args)
+  {
+      Application.Current.MainPage = new Historia03Page();
   }
 }

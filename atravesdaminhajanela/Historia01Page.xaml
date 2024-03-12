@@ -8,8 +8,8 @@
 
         <Grid.RowDefinitions>
         <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
+        <RowDefinition Height="60"/>
+        <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
 
     <Image
@@ -18,11 +18,11 @@
                 Grid.RowSpan="4"/> 
 
        
-    <Label Text="No computador dela existe varias fotos do Aries, e a senha do seu Wifi é 'aries deus grego' em codigos, certo da ela estava dormindo e o Aries foi perto da janela do quarto dela e colocou uma musica bem alta assim acordando-a. O que ela deve fazer nessa situação?"
+    <Label Text="No computador dela existe varias fotos do Aries, e a senha do seu Wifi é 'aries deus grego' em codigos, certo dia ela estava no seu quarto e o Apolo chamou ela e agradeceu pelo o Wifi mas ela nao tinha passado a senha para ele entao ela perguntou quam havia passado a senha para ele e ele falou que foi o Aries, chega a noite e ela estava dormindo e o Aries foi perto da janela do quarto dela e colocou uma musica bem alta assim acordando-a. ela perguntou se ele havia rackeado o wifi dela e ele disse que sim. Como ela deve pedir para ele abaixar a musica nessa situação?"
            TextColor="Black"
            Grid.Row="0"
            Margin="20"
-           FontSize="25"
+           FontSize="22"
            FontFamily="CachetStdBold"
            VerticalOptions="Center"/>
 
