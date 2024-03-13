@@ -4,5 +4,79 @@
              x:Class="atravesdaminhajanela.Historia03Page"
              Shell.NavBarIsVisible="false">
 
+    <Grid>
+
+        <Grid.RowDefinitions>
+        <RowDefinition Height="100"/>
+        <RowDefinition Height="150"/>
+        <RowDefinition Height="150"/>
+        <RowDefinition Height="70"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+
+    <Image
+                Source="fundohistoria.jpg"
+                Aspect="AspectFill"
+                Grid.RowSpan="8"/> 
+
+       
+    <Label Text="Raquel:'Abaixa a música e parar de usar meu wifi'"
+           TextColor="Black"
+           Grid.Row="1"
+           Margin="20"
+           FontSize="25"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Label Text="Aries:'O meu wifi parou de funcionar e estou usando o seu algum problema?'"
+           TextColor="Black"
+           Grid.Row="2"
+           Margin="20"
+           FontSize="25"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Label Text="Raquel: 'Idiota'"
+           TextColor="Black"
+           Grid.Row="3"
+           Margin="20"
+           FontSize="25"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Label Text="Aries: 'Boa Noite bruxa'"
+           TextColor="Black"
+           Grid.Row="4"
+           Margin="20"
+           FontSize="25"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Label Text="Raquel: 'Bruxa?'"
+           TextColor="Black"
+           Grid.Row="5"
+           Margin="20"
+           FontSize="25"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Button x:Name="Prox"
+              Text="Proximo"
+              Clicked="Proximo"
+              Grid.Row="6"
+              HeightRequest="50"
+              CornerRadius="25"
+              BackgroundColor="#1414b8"
+              TextColor="White"
+              FontSize="18"
+              FontFamily="CachetStdBold"
+              HorizontalOptions="FillAndExpand"
+              VerticalOptions="Center"/>
+
+</Grid>
+
 
 </ContentPage>

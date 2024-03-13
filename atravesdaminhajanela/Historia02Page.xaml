@@ -7,26 +7,23 @@
 <Grid>
 
         <Grid.RowDefinitions>
-        <RowDefinition Height="90"/>
-        <RowDefinition Height="60"/>
-        <RowDefinition Height="40"/>
+        <RowDefinition Height="100"/>
+        <RowDefinition Height="150"/>
+        <RowDefinition Height="150"/>
+        <RowDefinition Height="70"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+
         </Grid.RowDefinitions>
 
     <Image
                 Source="fundohistoria.jpg"
                 Aspect="AspectFill"
-                Grid.RowSpan="4"/> 
+                Grid.RowSpan="8"/> 
 
        
-    <Label Text="'Você poderia abaixar a música e parar de usar meu wifi?, estou tentando dormir'"
-           TextColor="Black"
-           Grid.Row="0"
-           Margin="20"
-           FontSize="25"
-           FontFamily="CachetStdBold"
-           VerticalOptions="Center"/>
-
-    <Label Text="Aries:'O meu wifi parou de funcionar e estou usando o seu algum problema?"
+    <Label Text="Raquel:'Você poderia abaixar a música e parar de usar meu wifi?, estou tentando dormir'"
            TextColor="Black"
            Grid.Row="1"
            Margin="20"
@@ -34,13 +31,50 @@
            FontFamily="CachetStdBold"
            VerticalOptions="Center"/>
 
-    <Label Text="Raquel: 'Idiota'"
+    <Label Text="Aries:'O meu wifi parou de funcionar e estou usando o seu algum problema?'"
            TextColor="Black"
            Grid.Row="2"
+           Margin="30"
+           FontSize="25"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Label Text="Raquel: 'Idiota'"
+           TextColor="Black"
+           Grid.Row="3"
            Margin="20"
            FontSize="25"
            FontFamily="CachetStdBold"
            VerticalOptions="Center"/>
+
+    <Label Text="Aries: 'Boa Noite bruxa'"
+           TextColor="Black"
+           Grid.Row="4"
+           Margin="20"
+           FontSize="25"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Label Text="Raquel: 'Bruxa?'"
+           TextColor="Black"
+           Grid.Row="5"
+           Margin="20"
+           FontSize="25"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Button x:Name="Proximo"
+              Text="Proximo"
+              Clicked="Prox"
+              Grid.Row="6"
+              HeightRequest="50"
+              CornerRadius="25"
+              BackgroundColor="#1414b8"
+              TextColor="White"
+              FontSize="18"
+              FontFamily="CachetStdBold"
+              HorizontalOptions="FillAndExpand"
+              VerticalOptions="Center"/>
 
 
 </Grid>

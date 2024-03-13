@@ -9,8 +9,8 @@ public partial class Historia02Page : ContentPage
 		InitializeComponent();
 	}
 
- private void estressada(object sender, EventArgs args)
+ private void Prox(object sender, EventArgs args)
   {
-      Application.Current.MainPage = new OnePage();
+      Application.Current.MainPage = new Historia04Page();
   }
 }

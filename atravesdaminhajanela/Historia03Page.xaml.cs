@@ -8,4 +8,9 @@ public partial class Historia03Page : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	private void Proximo(object sender, EventArgs args)
+  {
+      Application.Current.MainPage = new OnePage();
+  }
 }

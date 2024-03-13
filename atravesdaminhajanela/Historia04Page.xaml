@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="atravesdaminhajanela.Historia04Page"
+             Shell.NavBarIsVisible="false">
+
+
+        <Grid>
+
+        <Grid.RowDefinitions>
+        <RowDefinition Height="70"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+
+    <Image
+                Source="fundohistoria.jpg"
+                Aspect="AspectFill"
+                Grid.RowSpan="4"/> 
+
+       
+    <Label Text="...'"
+           TextColor="Black"
+           Grid.Row="1"
+           Margin="20"
+           FontSize="25"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    
+
+</Grid>
+
+
+
+</ContentPage>
