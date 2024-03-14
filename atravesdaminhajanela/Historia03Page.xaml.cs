@@ -9,8 +9,8 @@ public partial class Historia03Page : ContentPage
 		InitializeComponent();
 	}
 
-	private void Proximo(object sender, EventArgs args)
+	private void Promo(object sender, EventArgs args)
   {
-      Application.Current.MainPage = new OnePage();
+      Application.Current.MainPage = new Historia04Page();
   }
 }

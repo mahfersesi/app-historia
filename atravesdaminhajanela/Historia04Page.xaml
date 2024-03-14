@@ -8,8 +8,10 @@
         <Grid>
 
         <Grid.RowDefinitions>
-        <RowDefinition Height="70"/>
-        <RowDefinition Height="*"/>
+        <RowDefinition Height="100"/>
+        <RowDefinition Height="100"/>
+        <RowDefinition Height="100"/>
+        <RowDefinition Height="150"/>
         <RowDefinition Height="*"/>
         <RowDefinition Height="*"/>
 
@@ -18,18 +20,53 @@
     <Image
                 Source="fundohistoria.jpg"
                 Aspect="AspectFill"
-                Grid.RowSpan="4"/> 
+                Grid.RowSpan="8"/> 
 
        
-    <Label Text="...'"
+    <Label Text="No dia seguite Raquel seguiu o Aries depois do colégio até uma praça no cemitério, o Aries percebeu e pergunto: "
            TextColor="Black"
            Grid.Row="1"
            Margin="20"
-           FontSize="25"
+           FontSize="20"
            FontFamily="CachetStdBold"
            VerticalOptions="Center"/>
 
-    
+    <Label Text="Aries: 'Por que me seguiu até aqui Bruxa?'"
+           TextColor="Black"
+           Grid.Row="2"
+           Margin="20"
+           FontSize="20"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+           
+    <Label Text="Raquel: 'eu não te segui, eu estava apenas andadando na rua'"
+           TextColor="Black"
+           Grid.Row="3"
+           Margin="20"
+           FontSize="20"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Label Text="Aries: 'E resolveu andar bem atraz de mim? vc acha que eu não sei dessa sua obcesão por mim?'"
+           TextColor="Black"
+           Grid.Row="4"
+           Margin="20"
+           FontSize="20"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Button x:Name="Prom"
+              Text="Proximo"
+              Clicked="Proxim"
+              Grid.Row="5"
+              HeightRequest="50"
+              CornerRadius="25"
+              BackgroundColor="#1414b8"
+              TextColor="White"
+              FontSize="18"
+              FontFamily="CachetStdBold"
+              HorizontalOptions="FillAndExpand"
+              VerticalOptions="Center"/>
 
 </Grid>
 
