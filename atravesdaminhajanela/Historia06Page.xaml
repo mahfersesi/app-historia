@@ -5,5 +5,51 @@
              Shell.NavBarIsVisible="false">
 
 
+        <Grid>
+
+        <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="60"/>
+        <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+    <Image
+                Source="fundohistoria.jpg"
+                Aspect="AspectFill"
+                Grid.RowSpan="4"/> 
+
+       
+    <Label Text="Raquel:'Não ta claro? Eu quero que você se apaixone por mim.'"
+           TextColor="Black"
+           Grid.Row="0"
+           Margin="20"
+           FontSize="22"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Label Text="Aries da uma risada de doboche"
+           TextColor="Black"
+           Grid.Row="0"
+           Margin="20"
+           FontSize="22"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Label Text="Raquel:'Me leva até a saida? Eu tenho medo de voltar sozinha.'"
+           TextColor="Black"
+           Grid.Row="0"
+           Margin="20"
+           FontSize="22"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Label Text="Aries da uma risada de doboche"
+           TextColor="Black"
+           Grid.Row="0"
+           Margin="20"
+           FontSize="22"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
 
 </ContentPage>

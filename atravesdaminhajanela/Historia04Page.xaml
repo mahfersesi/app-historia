@@ -8,12 +8,12 @@
         <Grid>
 
         <Grid.RowDefinitions>
+        <RowDefinition Height="80"/>
+        <RowDefinition Height="180"/>
         <RowDefinition Height="100"/>
         <RowDefinition Height="100"/>
-        <RowDefinition Height="100"/>
-        <RowDefinition Height="150"/>
         <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
+        <RowDefinition Height="80"/>
 
         </Grid.RowDefinitions>
 
@@ -27,7 +27,7 @@
            TextColor="Black"
            Grid.Row="1"
            Margin="20"
-           FontSize="20"
+           FontSize="25"
            FontFamily="CachetStdBold"
            VerticalOptions="Center"/>
 
@@ -35,7 +35,7 @@
            TextColor="Black"
            Grid.Row="2"
            Margin="20"
-           FontSize="20"
+           FontSize="25"
            FontFamily="CachetStdBold"
            VerticalOptions="Center"/>
            
@@ -43,7 +43,7 @@
            TextColor="Black"
            Grid.Row="3"
            Margin="20"
-           FontSize="20"
+           FontSize="25"
            FontFamily="CachetStdBold"
            VerticalOptions="Center"/>
 
@@ -51,7 +51,7 @@
            TextColor="Black"
            Grid.Row="4"
            Margin="20"
-           FontSize="20"
+           FontSize="25"
            FontFamily="CachetStdBold"
            VerticalOptions="Center"/>
 

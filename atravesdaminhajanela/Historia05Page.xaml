@@ -8,13 +8,13 @@
         <Grid>
 
         <Grid.RowDefinitions>
+        <RowDefinition Height="80"/>
+        <RowDefinition Height="150"/>
+        <RowDefinition Height="150"/>
         <RowDefinition Height="100"/>
-        <RowDefinition Height="150"/>
-        <RowDefinition Height="150"/>
-        <RowDefinition Height="70"/>
         <RowDefinition Height="*"/>
-        <RowDefinition Height="20"/>
-        <RowDefinition Height="10"/>
+        <RowDefinition Height="70"/>
+        <RowDefinition Height="60"/>
 
         </Grid.RowDefinitions>
 
@@ -31,7 +31,7 @@
            FontFamily="CachetStdBold"
            VerticalOptions="Center"/>
        
-       <Label Text="Aries: 'a senha do seu wifi esta em codigos e curiosamente se aprece com aries deus grego'"
+       <Label Text="Aries: 'a senha do seu wifi esta em codigos e curiosamente se parece com Aries Deus Grego'"
            TextColor="Black"
            Grid.Row="2"
            Margin="20"
@@ -80,6 +80,24 @@
               FontFamily="CachetStdBold"
               HorizontalOptions="FillAndExpand"
               VerticalOptions="Center"/>
+
+              <Label Text="Raquel:'Nada Aries, só te encontrei no mesmo caminho por ser meu vizinho'"
+           TextColor="Black"
+           Grid.Row="3"
+           Margin="20"
+           FontSize="25"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+           <Label Text="Aries:'Verdade Raquel, voce não é como as outras meninas, tem um mistério algo aa mais que  '"
+           TextColor="Black"
+           Grid.Row="3"
+           Margin="20"
+           FontSize="25"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+           
     
 
 </Grid>
