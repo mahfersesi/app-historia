@@ -4,6 +4,62 @@
              x:Class="atravesdaminhajanela.Historia07Page"
              Shell.NavBarIsVisible="false">
 
+    <Grid>
 
+        <Grid.RowDefinitions>
+        <RowDefinition Height="80"/>
+        <RowDefinition Height="150"/>
+        <RowDefinition Height="150"/>
+        <RowDefinition Height="100"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="70"/>
+        <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
 
+    <Image
+                Source="fundohistoria.jpg"
+                Aspect="AspectFill"
+                Grid.RowSpan="8"/> 
+
+       
+    <Label Text="Raquel:'Eu nada vc é maluco'"
+           TextColor="Black"
+           Grid.Row="1"
+           Margin="20"
+           FontSize="22"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Label Text="Aries da uma risada de doboche"
+           TextColor="Black"
+           Grid.Row="2"
+           Margin="20"
+           FontSize="22"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Label Text="Raquel:'Vou embora, e vc que nao seja loco de me seguir que eu chamo a policia'"
+           TextColor="Black"
+           Grid.Row="3"
+           Margin="20"
+           FontSize="22"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Label Text="Aries:'A maluca é você, eu não segui ninguem'"
+           TextColor="Black"
+           Grid.Row="4"
+           Margin="20"
+           FontSize="22"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+    <Label Text="Entao a raquel vai embora e o aries nao começa a sentir nada por ela"
+           TextColor="Black"
+           Grid.Row="5"
+           Margin="20"
+           FontSize="22"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+</Grid>
 </ContentPage>

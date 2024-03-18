@@ -80,23 +80,6 @@
               FontFamily="CachetStdBold"
               HorizontalOptions="FillAndExpand"
               VerticalOptions="Center"/>
-
-              <Label Text="Raquel:'Nada Aries, só te encontrei no mesmo caminho por ser meu vizinho'"
-           TextColor="Black"
-           Grid.Row="3"
-           Margin="20"
-           FontSize="25"
-           FontFamily="CachetStdBold"
-           VerticalOptions="Center"/>
-
-           <Label Text="Aries:'Verdade Raquel, voce não é como as outras meninas, tem um mistério algo aa mais que  '"
-           TextColor="Black"
-           Grid.Row="3"
-           Margin="20"
-           FontSize="25"
-           FontFamily="CachetStdBold"
-           VerticalOptions="Center"/>
-
            
     
 

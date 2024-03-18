@@ -8,20 +8,24 @@
         <Grid>
 
         <Grid.RowDefinitions>
+        <RowDefinition Height="80"/>
+        <RowDefinition Height="150"/>
+        <RowDefinition Height="150"/>
+        <RowDefinition Height="100"/>
         <RowDefinition Height="*"/>
+        <RowDefinition Height="70"/>
         <RowDefinition Height="60"/>
-        <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
 
     <Image
                 Source="fundohistoria.jpg"
                 Aspect="AspectFill"
-                Grid.RowSpan="4"/> 
+                Grid.RowSpan="8"/> 
 
        
     <Label Text="Raquel:'Não ta claro? Eu quero que você se apaixone por mim.'"
            TextColor="Black"
-           Grid.Row="0"
+           Grid.Row="1"
            Margin="20"
            FontSize="22"
            FontFamily="CachetStdBold"
@@ -29,7 +33,7 @@
 
     <Label Text="Aries da uma risada de doboche"
            TextColor="Black"
-           Grid.Row="0"
+           Grid.Row="2"
            Margin="20"
            FontSize="22"
            FontFamily="CachetStdBold"
@@ -37,19 +41,27 @@
 
     <Label Text="Raquel:'Me leva até a saida? Eu tenho medo de voltar sozinha.'"
            TextColor="Black"
-           Grid.Row="0"
+           Grid.Row="3"
            Margin="20"
            FontSize="22"
            FontFamily="CachetStdBold"
            VerticalOptions="Center"/>
 
-    <Label Text="Aries da uma risada de doboche"
+    <Label Text="Aries da uma risada de doboche e fala 'eu levo mais isso vai te custar um beijo'"
            TextColor="Black"
-           Grid.Row="0"
+           Grid.Row="4"
            Margin="20"
            FontSize="22"
            FontFamily="CachetStdBold"
            VerticalOptions="Center"/>
 
+    <Label Text="Entao os dois se beijam e continuam a sua historia de amor"
+           TextColor="Black"
+           Grid.Row="5"
+           Margin="20"
+           FontSize="22"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
 
+</Grid>
 </ContentPage>
