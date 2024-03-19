@@ -5,4 +5,42 @@
              Shell.NavBarIsVisible="false">
 
 
+        <Grid>
+
+        <Grid.RowDefinitions>
+        <RowDefinition Height="400"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="150"/>
+        <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+
+        <Image
+                Source="certo.jpg"
+                Aspect="AspectFill"
+                Grid.RowSpan="4"/> 
+
+        <Label Text="Raquel nem imaginava que Aries iria se tornar seu marido"
+           TextColor="Red"
+           Grid.Row="2"
+           Margin="20"
+           FontSize="22"
+           FontFamily="CachetStdBold"
+           VerticalOptions="Center"/>
+
+        <Button x:Name="Prsx"
+              Text="Voltar para o inicio"
+              Clicked="Prx"
+              Grid.Row="3"
+              HeightRequest="50"
+              CornerRadius="25"
+              BackgroundColor="#1414b8"
+              TextColor="White"
+              FontSize="18"
+              FontFamily="CachetStdBold"
+              HorizontalOptions="FillAndExpand"
+              VerticalOptions="Center"/>
+
+
+</Grid>
+
 </ContentPage>

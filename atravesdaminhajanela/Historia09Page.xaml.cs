@@ -8,4 +8,10 @@ public partial class Historia09Page : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	private void Prx(object sender, EventArgs args)
+  {
+      Application.Current.MainPage = new MainPage();
+  }
+
 }

@@ -8,12 +8,12 @@
 
         <Grid.RowDefinitions>
         <RowDefinition Height="80"/>
+        <RowDefinition Height="90"/>
+        <RowDefinition Height="90"/>
         <RowDefinition Height="150"/>
         <RowDefinition Height="150"/>
-        <RowDefinition Height="100"/>
+        <RowDefinition Height="90"/>
         <RowDefinition Height="*"/>
-        <RowDefinition Height="70"/>
-        <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
 
     <Image
@@ -61,5 +61,18 @@
            FontSize="22"
            FontFamily="CachetStdBold"
            VerticalOptions="Center"/>
+
+    <Button x:Name="Promx"
+              Text="Fim de jogo"
+              Clicked="Pr"
+              Grid.Row="6"
+              HeightRequest="50"
+              CornerRadius="25"
+              BackgroundColor="#1414b8"
+              TextColor="White"
+              FontSize="18"
+              FontFamily="CachetStdBold"
+              HorizontalOptions="FillAndExpand"
+              VerticalOptions="Center"/>
 </Grid>
 </ContentPage>
